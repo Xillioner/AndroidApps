@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.33">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="83dp"
+            android:layout_marginEnd="136dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonLondon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="London" />
+
+            <RadioButton
+                android:id="@+id/radioButtonBeijing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beijing" />
+
+            <RadioButton
+                android:id="@+id/radioButtonNewYork"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New York" />
+
+            <RadioButton
+                android:id="@+id/radioButtonEuropeanEmpire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="European Empire" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="351dp"
+            android:layout_marginEnd="105dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="160dp"
+            android:layout_marginEnd="151dp"
+            android:layout_marginBottom="278dp"
+            android:text="Capture" />
+
+        <TextClock
+            android:id="@+id/textClock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="103dp"
+            android:gravity="center_horizontal"
+            android:textSize="54sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.33">
+
+        <CheckBox
+            android:id="@+id/checkBoxReSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="152dp"
+            android:text="Resize" />
+
+        <CheckBox
+            android:id="@+id/checkBoxTint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:text="Tint" />
+
+        <CheckBox
+            android:id="@+id/checkBoxTransparency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="Transparency" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="87dp"
+            android:layout_marginTop="302dp"
+            android:layout_marginEnd="85dp"
+            app:srcCompat="@mipmap/ic_launcher" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.33">
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="157dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="103dp"
+            android:clickable="true"
+            android:enabled="true"
+            android:text="Switch" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="202dp"
+            android:text="TextView"
+            android:textSize="34sp" />
+    </RelativeLayout>
+</LinearLayout>
